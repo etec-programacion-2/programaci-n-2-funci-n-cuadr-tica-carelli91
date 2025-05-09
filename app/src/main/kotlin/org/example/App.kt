@@ -7,6 +7,7 @@ import kotlin.math.sqrt
 val tablaX = mutableListOf<Int>()
 val tablaY = mutableListOf<Int>()
 
+
 //////////////////////////// EJERCICIO 2 ////////////////////////////
 fun tablaValores(a: Int, b: Int, c: Int) {
     for (x in -5..5) {
@@ -19,6 +20,7 @@ fun tablaValores(a: Int, b: Int, c: Int) {
     println("X: $tablaX")
     println("Y: $tablaY")
 }
+
 
 //////////////////////////// EJERCICIO 3 ////////////////////////////
 fun discriminante(a: Int, b: Int, c: Int): Double {
@@ -44,6 +46,7 @@ fun raices(a: Int, b: Int, c: Int) {
 
 
 
+
 //funcion principal para ejecutar todo
 fun main() {
     val a = 1
@@ -52,6 +55,7 @@ fun main() {
 
     if (a == 0) {
         println("La variable (a) no puede ser cero")
+        
     } else {
         //EJERCICIO 1
         println("EJERCICIO 1")
